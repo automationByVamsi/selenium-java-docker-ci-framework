@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" parallel="methods" thread-count="2"
+          name="/Users/vamsimanohar/automation-by-vamsi/selenium-java/selenium-java-docker-ci-framework/selenium-java-docker-ci-framework">
+        <classes>
+            <class name="org.api.DemoBlazeTest"/>
+
+
+        </classes>
+    </test>
+</suite>
